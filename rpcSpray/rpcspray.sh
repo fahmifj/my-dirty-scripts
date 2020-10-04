@@ -2,7 +2,7 @@
 userfiles=$1
 password=$2
 targetip=$3
-if [ "$1" == "" ] && [ "$2" == "" ] && [ "$3" == "" ]
+if [ "$1" == "" ] || [ "$2" == "" ] || [ "$3" == "" ]
     then
     echo "Usage : ./rpspray.sh userlist passwordtospray targetip"
 else
