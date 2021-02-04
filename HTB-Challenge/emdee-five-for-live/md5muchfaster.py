@@ -7,9 +7,9 @@ r = requests.session()
 response = r.get(url)
 
 soup = BeautifulSoup(response.content, "lxml")
-finalstr = soup.h3.string
+finalStr = soup.h3.string
 
-hash = hashlib.md5(finalstr).hexdigest()
+hash = hashlib.md5(finalStr).hexdigest()
 data = {'hash': hash}
 
 post = r.post(url, data = data)

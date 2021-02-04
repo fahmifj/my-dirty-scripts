@@ -1,6 +1,8 @@
 #!/bin/bash
-for dir in `cat wordlist`; do 
-        status=$(curl -s http://example.com/$dir -o /dev/null -w "%{http_code}")
+url=$1 # http or https://www.example.com
+wordlist=$2
+for word in `cat $wordlist`; do 
+        status=$(curl -s $url/$dir -o /dev/null -w "%{http_code}")
         if [ $status -eq 200 ]
         then
           echo "$dir"
