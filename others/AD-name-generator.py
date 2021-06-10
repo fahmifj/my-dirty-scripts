@@ -9,10 +9,16 @@ def convert_name(userfile):
 		first_name = names[0]
 		lastname = names[1]
 		print(f'{first_name}.{lastname}')
+		print(f'{first_name}.{lastname}'.lower())
 		print(f'{first_letter}{lastname}')
+		print(f'{first_letter}{lastname}'.lower())
 		print(f'{first_letter}.{lastname}')
+		print(f'{first_letter}.{lastname}'.lower())
 		print(f'{first_letter}a{lastname}')
+		print(f'{first_letter}a{lastname}'.lower())
 		print(f'{first_letter}e{lastname}')
+		print(f'{first_letter}e{lastname}'.lower())
+	f.close();
 
 
 if __name__ == '__main__' :
