@@ -1,0 +1,3 @@
+[submodule "ActiveDirectory-scripts"]
+	path = ActiveDirectory-scripts
+	url = https://github.com/fahmifj/AAD-scripts.git
