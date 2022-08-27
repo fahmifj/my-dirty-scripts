@@ -1,3 +1,9 @@
-[submodule "ActiveDirectory-scripts"]
-	path = ActiveDirectory-scripts
-	url = https://github.com/fahmifj/AAD-scripts.git
+[submodule "win-sysadmin"]
+	path = infosec-ctf/win-sysadmin
+	url = https://github.com/fahmifj/win-sysadmin.git
+[submodule "pk-decrypt"]
+	path = pk-decrypt
+	url = https://github.com/fahmifj/PortableKanban-decrypt
+[submodule "php-zerodium"]
+	path = php-zerodium
+	url = https://github.com/fahmifj/php-8.1.0-dev-zerodium-rce
